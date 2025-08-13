@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3 uid="uid://d4gfo6uuh56bp"]
+
+[ext_resource type="PackedScene" uid="uid://bpj4tiwqoqy50" path="res://asteroids/scenes/spacheship.tscn" id="1_1ukq3"]
+[ext_resource type="Script" uid="uid://r61wcrp2a5hj" path="res://asteroids/scripts/main.gd" id="1_wt4n0"]
+[ext_resource type="PackedScene" uid="uid://do0m8wv46wxau" path="res://asteroids/scenes/HUD.tscn" id="3_5biem"]
+[ext_resource type="PackedScene" uid="uid://dfcskhf3wpa6x" path="res://asteroids/scenes/game_over.tscn" id="4_1pnf4"]
+
+[node name="main_asteroids" type="Node2D"]
+script = ExtResource("1_wt4n0")
+
+[node name="spaceship" parent="." instance=ExtResource("1_1ukq3")]
+position = Vector2(354, 979)
+
+[node name="Hud" parent="." instance=ExtResource("3_5biem")]
+
+[node name="GameOver" parent="." instance=ExtResource("4_1pnf4")]
+process_mode = 2
+visible = false

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tfrj7kqvfxt2"
-path="res://.godot/imported/spacehsip.svg-a27180d3ee03f301d7c1ed8e0322988c.ctex"
+path="res://.godot/imported/spacehsip.svg-1798e3cc11ba23b40f660b9ab6b18f1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spacehsip.svg"
-dest_files=["res://.godot/imported/spacehsip.svg-a27180d3ee03f301d7c1ed8e0322988c.ctex"]
+source_file="res://asteroids/assets/image/spacehsip.svg"
+dest_files=["res://.godot/imported/spacehsip.svg-1798e3cc11ba23b40f660b9ab6b18f1d.ctex"]
 
 [params]
 

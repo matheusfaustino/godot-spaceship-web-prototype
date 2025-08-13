@@ -5,4 +5,4 @@ func _ready():
 	
 	
 func _on_button_press():
-	get_tree().change_scene_to_file("res://spacheship.tscn")
+	get_tree().change_scene_to_file("res://asteroids/scenes/main_asteriods.tscn")

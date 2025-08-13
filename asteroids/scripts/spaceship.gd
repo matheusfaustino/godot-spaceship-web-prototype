@@ -1,4 +1,4 @@
-extends Sprite2D
+extends Node2D
 
 var speed = 400  # Movement speed in pixels per second
 var target_position = position  # Target position for smooth movement
