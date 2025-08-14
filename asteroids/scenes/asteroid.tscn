@@ -20,3 +20,5 @@ scale = Vector2(18.2617, 15.9187)
 skew = 0.0200224
 shape = SubResource("CircleShape2D_p0ukn")
 one_way_collision_margin = 0.0
+
+[connection signal="increase_speed" from="." to="." method="_on_increase_speed"]
