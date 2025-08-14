@@ -15,13 +15,16 @@ run/main_scene="uid://cwnp2jixlfvyl"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+ScreenScale="*res://screen_scale.gd"
+
 [display]
 
-window/size/viewport_width=375
-window/size/viewport_height=812
+window/size/viewport_width=720
+window/size/viewport_height=1280
 window/stretch/mode="viewport"
 window/stretch/aspect="expand"
-window/stretch/scale_mode="integer"
 window/handheld/orientation=6
 
 [rendering]
